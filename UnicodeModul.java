@@ -27,7 +27,7 @@ public class UnicodeModul {
 	/**
 	 * Returns the length of val as string in the given base.
 	 * @param val >= 0
-	 * @param base > 0
+	 * @param base >= 2
 	 */
 	protected static int length(int val, int base) {
 		return 1 + (int) (Math.log(val) / Math.log(base));
@@ -36,7 +36,7 @@ public class UnicodeModul {
 	/**
 	 * Returns the digits of val in the given base.
 	 * @param val >= 0
-	 * @param base > 0
+	 * @param base >= 2
 	 */
 	protected static int[] toBase(int val, int base) {
 		if(val==0) return new int[]{0};
