@@ -1,10 +1,11 @@
-﻿# Compose Creator
+﻿
+# Compose Creator
 
 ## Purpose
 
 This is a simple Java program to to convert the latest version of the unicode standard into fitting compose definitions for a linux system.
 
-## How to create the `unicode.modul`
+## How to create the unicode.modul
 At first, you’ll have to install a Java 6 JRE or later (if you doesn’t already have one).
 
 At second, download the file [UnicodeData.txt](http://unicode.org/Public/UNIDATA/UnicodeData.txt)  (you should always download it yourself to get the latest version).
@@ -14,7 +15,7 @@ Now switch to your command-line interface and type
 		javac UnicodeModul.java
 		java UnicodeModul
 
-## How to use the `unicode.modul`
+## How to use the unicode.modul
 It contains a list of combose comination for all unicode codepoints (0x0-0x10FFFD) with the hex value of the codepoint as key, for example
 
 		<Multi_key> <u> <u> <4> <7> <c> <space> : "Ѽ" U047c # CYRILLIC CAPITAL LETTER OMEGA WITH TITLO
